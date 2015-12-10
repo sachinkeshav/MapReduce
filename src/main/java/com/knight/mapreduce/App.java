@@ -8,10 +8,12 @@ import java.util.Set;
 
 import org.apache.commons.cli.CommandLine;
 
+import com.knight.mapreduce.loader.JobLoader;
+import com.knight.mapreduce.loader.impl.wordcount.WordCountLoader;
+import com.knight.mapreduce.options.MyOptions;
 import com.knight.mapreduce.utils.ClassUtils;
 import com.knight.mapreduce.utils.ResourceUtils;
 import com.knight.mapreduce.utils.SetUtils;
-import com.knight.mapreduce.wordcount.WordCountLoader;
 
 /**
  * 
@@ -20,7 +22,7 @@ import com.knight.mapreduce.wordcount.WordCountLoader;
  */
 public class App {
 	
-	static String packagePath = "com.knight.mapreduce.";
+	static String packagePath = "com.knight.mapreduce.loader.impl";
 	
 	static Set<String> appPropertiesSet = new HashSet<String>(SetUtils.setFromFile("loaderProperties/loaderProperties.list"));
 	

@@ -1,6 +1,8 @@
-package com.knight.mapreduce;
+package com.knight.mapreduce.loader;
 
 import org.apache.commons.cli.CommandLine;
+
+import com.knight.mapreduce.options.MyOptions;
 
 /**
  * 

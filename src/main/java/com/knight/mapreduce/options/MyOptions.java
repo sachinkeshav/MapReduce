@@ -1,4 +1,4 @@
-package com.knight.mapreduce;
+package com.knight.mapreduce.options;
 
 import org.apache.commons.cli.*;
 
