@@ -22,7 +22,7 @@ import com.knight.mapreduce.utils.SetUtils;
  */
 public class App {
 	
-	static String packagePath = "com.knight.mapreduce.loader.impl";
+	static String packagePath = "com.knight.mapreduce.loader.impl.";
 	
 	static Set<String> appPropertiesSet = new HashSet<String>(SetUtils.setFromFile("loaderProperties/loaderProperties.list"));
 	
