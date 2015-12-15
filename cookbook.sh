@@ -92,7 +92,7 @@ case "$param" in
 				;;
 	"list"	)
 				printJobs
-				echo "Please specify a job number to run . eg 2 or 2,3,4 or 3-9 etc ?"
+				echo "Please specify a job number to run . eg 2 or 2,3,4 etc ?"
 				read userSpecifiedJob
 				validateUserSpecifiedJobs $userSpecifiedJob
 				job=$(echo "$userSpecifiedJob" | sed 's_,_ _g')
